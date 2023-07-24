@@ -1,0 +1,1 @@
+{"name":"Local: NSL","url":"/home/Murtaza/DSA/Queue&StackPracticeProblems/StackProblems/NSL.java","tests":[{"id":1690094572149,"input":"4\n2 1 4 7","output":"-1 -1 1 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/Murtaza/DSA/Queue&StackPracticeProblems/StackProblems/NSL.java","group":"local","local":true}

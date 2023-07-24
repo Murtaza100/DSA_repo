@@ -1,0 +1,1 @@
+{"name":"Local: MiddleElement","url":"/home/Murtaza/DSA/Arrays/PracticeProblems/MiddleElement.java","tests":[{"id":1689537058875,"input":"4\n1 2 3 4","output":"2 3"},{"id":1689538402077,"input":"3\n1 2 3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/Murtaza/DSA/Arrays/PracticeProblems/MiddleElement.java","group":"local","local":true}

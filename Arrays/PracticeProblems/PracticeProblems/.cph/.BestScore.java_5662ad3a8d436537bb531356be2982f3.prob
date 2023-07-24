@@ -1,0 +1,1 @@
+{"name":"Local: BestScore","url":"/home/Murtaza/DSA/Arrays/PracticeProblems/PracticeProblems/BestScore.java","tests":[{"id":1689568281658,"input":"5\n88 99 55 90 99","output":"99 90"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/Murtaza/DSA/Arrays/PracticeProblems/PracticeProblems/BestScore.java","group":"local","local":true}
