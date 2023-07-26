@@ -1,7 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-import javax.management.Query;
 
 public class BST {
     BinaryNode root;
