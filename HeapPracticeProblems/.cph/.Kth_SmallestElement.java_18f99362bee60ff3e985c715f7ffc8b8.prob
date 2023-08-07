@@ -1,0 +1,1 @@
+{"name":"Local: Kth_SmallestElement","url":"/home/Murtaza/DSA/HeapPracticeProblems/Kth_SmallestElement.java","tests":[{"id":1691435194717,"input":"6\n3\n7 10 4 3 20 15","output":"7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/Murtaza/DSA/HeapPracticeProblems/Kth_SmallestElement.java","group":"local","local":true}

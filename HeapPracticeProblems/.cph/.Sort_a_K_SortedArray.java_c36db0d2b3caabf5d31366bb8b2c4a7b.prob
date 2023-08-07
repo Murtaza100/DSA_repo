@@ -1,0 +1,1 @@
+{"name":"Local: Sort_a_K_SortedArray","url":"/home/Murtaza/DSA/HeapPracticeProblems/Sort_a_K_SortedArray.java","tests":[{"id":1691436456224,"input":"7\n3\n6 5 3 2 8 10 9","output":"2 3 5 6 8 9 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/Murtaza/DSA/HeapPracticeProblems/Sort_a_K_SortedArray.java","group":"local","local":true}
