@@ -1,0 +1,1 @@
+{"name":"Local: FrequencySortByHeap","url":"/home/Murtaza/DSA/HeapPracticeProblems/FrequencySortByHeap.java","tests":[{"id":1691501655852,"input":"6\n1 2 2 3 3 3","output":"3 3 3 2 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/Murtaza/DSA/HeapPracticeProblems/FrequencySortByHeap.java","group":"local","local":true}
