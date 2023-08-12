@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        //LinkedList ll1 = new LinkedList();
+        LinkedList ll1 = new LinkedList();
         // ll1.createLinkedList(1);
         // ll1.insertNode(2);
         // ll1.insertNode(1);
@@ -14,12 +14,12 @@ public class App {
         // ll1.insertNode(10); 
         // ll1.insertNode(2); 
         // ll1.insertNode(1);
-        // ll1.createLinkedList(1);
-        // ll1.insertNode(4);
-        // ll1.insertNode(3);
-        // ll1.insertNode(2);
-        // ll1.insertNode(5);
-        // ll1.insertNode(2);
+        ll1.createLinkedList(1);
+        ll1.insertNode(4);
+        ll1.insertNode(3);
+        ll1.insertNode(2);
+        ll1.insertNode(5);
+        ll1.insertNode(2);
 
         
         // ll1.traverseList();
@@ -30,8 +30,8 @@ public class App {
     // ll1.traverseList();
 
     // Return Nth to Last
-    // Node ans = questions.nthToLast(ll1,3);
-    // System.out.println("nth last value is : " + ans.value);
+    Node ans = questions.nthToLast(ll1,2);
+    System.out.println("nth last value is : " + ans.value);
        
     // Remove Nth Node from last
     // questions.removeNthToLast(ll1, 3);

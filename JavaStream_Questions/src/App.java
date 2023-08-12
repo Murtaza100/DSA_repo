@@ -61,7 +61,7 @@ public class App {
         System.out.println("Q5. Print numbers starting with prefix 2 and -2");
         List<Integer> num = Arrays.asList(2,22, 233, 500, 4, 21, 56, 45, -2);
         // List<Integer> res = num.stream().filter(e -> String.valueOf(e).
-        //     startsWith("2")).collect(Collectors.toList());
+        //      startsWith("2")).collect(Collectors.toList());
 
         List<Integer> res = num.stream().map(e -> String.valueOf(e)).
             filter(e-> e.startsWith("2") || 
@@ -146,13 +146,13 @@ public class App {
 
         // Q10
         System.out.println("Q10. Get second Highest/Lowest number using streams");
-        int secHighest = numberList.stream().sorted().skip(1).
+        int secLowest = numberList.stream().sorted().skip(1).
             findFirst().get();
-        System.out.println("second highest : " + secHighest);
-        int secLowest = numberList.stream().
+        System.out.println("second lowest : " + secLowest);
+        int secHighest = numberList.stream().
             sorted(Collections.reverseOrder()).skip(1).
                 findFirst().get();
-        System.out.println("second lowest : "+secLowest);
+        System.out.println("second highest : "+secHighest);
 
         System.out.println("-----------------------------");
 

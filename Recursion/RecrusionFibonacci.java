@@ -1,7 +1,7 @@
 class RecrusionFibonacci {
   public static void main(String[] args) {
     RecrusionFibonacci recursion = new RecrusionFibonacci();
-    var rec = recursion.fibonacci(-2);
+    var rec = recursion.fibonacci(10);
     System.out.println(rec);
 
   }

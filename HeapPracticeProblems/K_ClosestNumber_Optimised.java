@@ -79,7 +79,7 @@ public class K_ClosestNumber_Optimised {
 
         while(k>0 && l>=0) {
             list.add(ar[l]);
-            l--; k++;
+            l--; k--;
         }
 
         while(k>0 && r<ar.length) {

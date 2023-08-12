@@ -62,26 +62,26 @@ public class RainWaterTrapping {
 
 
     // TC - (N), SC - 0(N)
-    private static int TrappedWater(int[] arr) {
-        int n = arr.length;
-        int maxWater = 0;
-        int[] leftMax = new int[n];
-        int[] rightMax = new int[n];
-        leftMax[0] = arr[0];
-        rightMax[n-1] = arr[n-1];
-        for(int i=1; i<n; i++) {
-            if(arr[i]>leftMax[i-1]) 
-                leftMax[i] = arr[i];
-            else 
-                leftMax[i] = leftMax[i-1];   
-            //leftMax[i] = Math.max(leftMax[i-1], arr[i]);
-        }
-        for(int i=n-2; i>=0; i--) {
-            rightMax[i] = Math.max(rightMax[i+1], arr[i]);
-        }
-        for(int i=0; i<n; i++) {
-            maxWater += Math.min(leftMax[i], rightMax[i]) - arr[i];
-        }
-        return maxWater;
-    }
+    // private static int TrappedWater(int[] arr) {
+    //     int n = arr.length;
+    //     int maxWater = 0;
+    //     int[] leftMax = new int[n];
+    //     int[] rightMax = new int[n];
+    //     leftMax[0] = arr[0];
+    //     rightMax[n-1] = arr[n-1];
+    //     for(int i=1; i<n; i++) {
+    //         if(arr[i]>leftMax[i-1]) 
+    //             leftMax[i] = arr[i];
+    //         else 
+    //             leftMax[i] = leftMax[i-1];   
+    //         //leftMax[i] = Math.max(leftMax[i-1], arr[i]);
+    //     }
+    //     for(int i=n-2; i>=0; i--) {
+    //         rightMax[i] = Math.max(rightMax[i+1], arr[i]);
+    //     }
+    //     for(int i=0; i<n; i++) {
+    //         maxWater += Math.min(leftMax[i], rightMax[i]) - arr[i];
+    //     }
+    //     return maxWater;
+    // }
 }

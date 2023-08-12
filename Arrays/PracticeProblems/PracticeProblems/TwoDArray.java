@@ -7,26 +7,36 @@ import java.io.InputStreamReader;
 
 Example
 
-myArray2D= {{1,2,3},{4,5,6},{7,8,9}};
+myArray2D= {{1,2,6},
+            {4,5,6},
+            {7,8,9}};
  
 sumDiagonalElements(myArray2D) # 15 */
 
 public class TwoDArray {
     public static int sumDiagonalElements(int[][] array) {
  
-        int sum = 0;
+        int sum = 0; //k=0;
         for(int row=0; row<array.length; row++){
             for(int col=0; col<array[0].length; col++){
                 if(row==col)
                     sum += array[row][col];
             }
         }
+        // // to get sum of another diagonal
+        // int row = array.length-1; 
+        // for(int col=0; col<array[0].length; col++) {
+        //         k += array[row][col];
+        //         row--;
+        // }
+        // System.out.println(k);
+        return sum;
+    }
         // also can be done by one for loop
         // for (int i = 0; i < array.length; i++) {
         //     sum += array[i][i];
         // }
-        return sum;
-    }
+        
     public static void main(String[] args) throws IOException {
          BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n,m;
