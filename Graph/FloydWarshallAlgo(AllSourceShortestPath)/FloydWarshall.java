@@ -20,7 +20,7 @@ public class FloydWarshall {
 			WeightedNode first = nodeList.get(i);
 			for (int j = 0; j < size; j++) {
 				WeightedNode second = nodeList.get(j);
-				if (i == j)
+				if (i == j) //distance with itself
 					V[i][j] = 0;
 				else if (first.weightMap.containsKey(second)) { //we have direct edge between i & j
 					V[i][j] = first.weightMap.get(second);
@@ -32,9 +32,9 @@ public class FloydWarshall {
 
 
 		// Floyd Warshall's Algorithm
-		for (int k = 0; k < nodeList.size(); k++) {
-			for (int i = 0; i < nodeList.size(); i++) {
-				for (int j = 0; j < nodeList.size(); j++) {
+		for (int k = 0; k < nodeList.size(); k++) { // no. of vertices times or via vertex
+			for (int i = 0; i < nodeList.size(); i++) { // rows
+				for (int j = 0; j < nodeList.size(); j++) { // col
 					if (V[i][j] > V[i][k] + V[k][j]) {  // if update possible, then update path
 						V[i][j] = V[i][k] + V[k][j];    // this will keep a track on path
 					}
