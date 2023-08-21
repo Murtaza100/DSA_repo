@@ -84,7 +84,8 @@ public class Longestprefixwhichisalsosuffix {
             {
                 if (len != 0)
                 {
-                    len = 0; // lps[len-1];
+                    len = 0; // lps[len-1]; -> in original kpm, this is used and 
+                    //here also it works so instead of 0 we can use this as well.
                 }
                 else
                 {
