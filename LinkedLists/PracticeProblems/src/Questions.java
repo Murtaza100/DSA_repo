@@ -281,5 +281,27 @@ public class Questions {
         llB.tail = newNode;
     }
 
+    /*
+     * Reverse a linkedList
+     * ---------------------
+     * null<-2 <-4<- 6
+     */
+
+    LinkedList reverseList (LinkedList ll) {
+        Node prev = ll.head.next;
+        Node next = ll.head.next.next;
+        ll.head.next = null;
+        while(prev!=null) {
+            prev.next = ll.head;
+            ll.head = prev;
+            prev=next;
+            if(next!=null){
+                next= next.next;
+            }
+                
+        }
+        return ll;
+    }
+
 }
 

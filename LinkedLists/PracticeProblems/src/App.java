@@ -65,10 +65,13 @@ public class App {
     llB.insertNode(4);
     llB.insertNode(6);
 
-    questions.addSameNode(llA, llB, 7);
-    questions.addSameNode(llA, llB, 2);
-    questions.addSameNode(llA, llB, 1);
-    Node inter = questions.findIntersection(llA, llB);
-    System.out.println(inter.value);
+    // questions.addSameNode(llA, llB, 7);
+    // questions.addSameNode(llA, llB, 2);
+    // questions.addSameNode(llA, llB, 1);
+    // Node inter = questions.findIntersection(llA, llB);
+    // System.out.println(inter.value);
+
+    questions.reverseList(llB);
+    llB.traverseList();
     }
 }
